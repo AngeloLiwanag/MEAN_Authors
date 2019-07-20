@@ -1,0 +1,8 @@
+<p>Add a new author:</p>
+<div>
+    <form class="authors_form" (submit)="onSubmitAuthor()">
+        <p>Author Name:</p>
+        <input type="text" name="newAuthor.name" [(ngModel)]="newAuthor.name">
+        <input type="submit" value="SUBMIT">
+    </form>
+</div>
